@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 6c7398ef89b287447b14af47842aca7a
+timeCreated: 1536328753
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book_1
+    100002: book_2
+    100004: book_3
+    100006: cactus
+    100008: case_1
+    100010: case_2
+    100012: cup
+    100014: flower
+    100016: folder_1
+    100018: folder_2
+    100020: folder_3
+    100022: paper_1
+    100024: paper_2
+    100026: paper_3
+    100028: pen
+    100030: pen_1
+    100032: pen_2
+    100034: pen_3
+    100036: //RootNode
+    400000: book_1
+    400002: book_2
+    400004: book_3
+    400006: cactus
+    400008: case_1
+    400010: case_2
+    400012: cup
+    400014: flower
+    400016: folder_1
+    400018: folder_2
+    400020: folder_3
+    400022: paper_1
+    400024: paper_2
+    400026: paper_3
+    400028: pen
+    400030: pen_1
+    400032: pen_2
+    400034: pen_3
+    400036: //RootNode
+    2300000: book_1
+    2300002: book_2
+    2300004: book_3
+    2300006: cactus
+    2300008: case_1
+    2300010: case_2
+    2300012: cup
+    2300014: flower
+    2300016: folder_1
+    2300018: folder_2
+    2300020: folder_3
+    2300022: paper_1
+    2300024: paper_2
+    2300026: paper_3
+    2300028: pen
+    2300030: pen_1
+    2300032: pen_2
+    2300034: pen_3
+    3300000: book_1
+    3300002: book_2
+    3300004: book_3
+    3300006: cactus
+    3300008: case_1
+    3300010: case_2
+    3300012: cup
+    3300014: flower
+    3300016: folder_1
+    3300018: folder_2
+    3300020: folder_3
+    3300022: paper_1
+    3300024: paper_2
+    3300026: paper_3
+    3300028: pen
+    3300030: pen_1
+    3300032: pen_2
+    3300034: pen_3
+    4300000: case_1
+    4300002: cactus
+    4300004: flower
+    4300006: folder_3
+    4300008: folder_2
+    4300010: folder_1
+    4300012: book_3
+    4300014: book_2
+    4300016: book_1
+    4300018: paper_3
+    4300020: paper_2
+    4300022: paper_1
+    4300024: pen
+    4300026: pen_3
+    4300028: pen_2
+    4300030: pen_1
+    4300032: cup
+    4300034: case_2
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

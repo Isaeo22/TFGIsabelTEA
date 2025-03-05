@@ -36,12 +36,14 @@ public class ListenerOpenAI : MonoBehaviour
 
     private readonly string fileName = "output.wav";
 
-    private OpenAIApi openai = new OpenAIApi("sk-WZbk79H5Sl_WLKEOiYOiV4JckcwHdYtadZrSVhAuzUT3BlbkFJacrLkq3qPpCiGLmuZ-y2cqduFsWlSbsOy5fybaheYA", "org-dPg0qtvmdXdTHQ55u1DhoiyH");
-
    
+
+    private OpenAIApi openai;
+
     public int messageRepetition;
     int micIndex;
     string micName;
+ 
 
     List<string> hallucinations = new List<string>()
     {
@@ -71,8 +73,8 @@ public class ListenerOpenAI : MonoBehaviour
         buttonRehacer.onClick.AddListener(StartListener);
         buttonRehacer.onClick.AddListener(CountMessageRepetition);
         buttonAceptar.onClick.AddListener(RestartListener);
+        openai = new OpenAIApi(ConfigLoader.Instance.ApiKey, ConfigLoader.Instance.OrganizationId);
 
-     
         messageRepetition = 0;
         
     }

@@ -13,7 +13,7 @@ public class TalkerOpenAI : MonoBehaviour
     [SerializeField] public TMP_Text message;
     [SerializeField] public TMP_Text rolText;
     public string firstMessage;
-    private OpenAIApi openai = new OpenAIApi("sk-WZbk79H5Sl_WLKEOiYOiV4JckcwHdYtadZrSVhAuzUT3BlbkFJacrLkq3qPpCiGLmuZ-y2cqduFsWlSbsOy5fybaheYA", "org-dPg0qtvmdXdTHQ55u1DhoiyH");
+    private OpenAIApi openai;
     public List<ChatMessage> messages = new List<ChatMessage>();
     public string prompt;
 
@@ -21,6 +21,11 @@ public class TalkerOpenAI : MonoBehaviour
     public string openAIMessage;
 
     public event Action<string> OnNpcResponse;
+
+    private void Start()
+    {
+        openai = new OpenAIApi(ConfigLoader.Instance.ApiKey, ConfigLoader.Instance.OrganizationId);
+    }
     public void StartTalker()
     {
         message.text = firstMessage;

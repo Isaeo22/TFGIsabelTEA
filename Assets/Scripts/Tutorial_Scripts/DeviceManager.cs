@@ -29,7 +29,7 @@ public class DeviceManager : MonoBehaviour
 
     void PreguntaSiNo(string nombreEscena,string nombreDevice) {
 
-        titulo.text = "¿Quieres jugar en "+nombreDevice;
+        titulo.text = "¿Quieres jugar en "+nombreDevice+"?";
         buttonOrdenador.gameObject.SetActive(false);
         buttonRealidadVirtual.gameObject.SetActive(false);
         buttonSi.onClick.AddListener(()=>LoadScene(nombreEscena));

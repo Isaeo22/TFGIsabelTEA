@@ -68,13 +68,9 @@ public class EyetrackerObject : MonoBehaviour
             }
         }
         else //Si estamos en VR contabilizamos con el angulo de la camara
-        {
-
-            
+        {            
             Vector3 direccionAlObjeto = (target.position - head.position).normalized;
-            float angulo = Vector3.Angle(head.forward, direccionAlObjeto);
-
-                         
+            float angulo = Vector3.Angle(head.forward, direccionAlObjeto);                         
            
             if (angulo < allowedAngle)
             {
@@ -87,7 +83,6 @@ public class EyetrackerObject : MonoBehaviour
                 if (angulo < allowedAngle)
                 {
                     eyetrackingTime += Time.deltaTime;
-                    Debug.Log("Pillando eyetracking bien");
                 }
                 Crono();
             }

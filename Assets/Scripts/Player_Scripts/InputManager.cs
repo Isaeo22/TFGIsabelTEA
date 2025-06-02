@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput; //Referencia al script autogenerado por el input action asset
-    public PlayerInput.OnFootActions lookingActionMap;//Referencia al mapa de acciones Walking 
-    public PlayerInput.PlayerUIActions playerUIActionMap;
+
+    public PlayerInput.PlayerActionMapActions playerActionMap;
    
    
     private PlayerLook look;
@@ -36,10 +36,10 @@ public class InputManager : MonoBehaviour
     void Awake()
     {
         playerInput = new PlayerInput();
-        lookingActionMap = playerInput.OnFoot;
+        
     
         look = GetComponent<PlayerLook>();
-        playerUIActionMap = playerInput.PlayerUI;
+        playerActionMap = playerInput.PlayerActionMap;
         OnTutorialScene = OnTutorial;
     }
 
@@ -47,26 +47,25 @@ public class InputManager : MonoBehaviour
 
  
     void LateUpdate()
-    {
-     
+    {  
         if (OnVr) return;
         if (lookEnable)
         {
-            look.ProcessLook(lookingActionMap.Look.ReadValue<Vector2>());
+            look.ProcessLook(playerActionMap.Look.ReadValue<Vector2>());
         }                  
     }
     private void OnEnable()
     {
-        lookingActionMap.Enable();
-        playerUIActionMap.OpenPauseMenu.Enable();
+        playerActionMap.Look.Enable();
+        playerActionMap.OpenPauseMenu.Enable();
 
-        playerUIActionMap.OpenPauseMenu.performed += Pause;
+        playerActionMap.OpenPauseMenu.performed += Pause;
     }
 
     private void OnDisable()
     {
-        lookingActionMap.Disable();
-        playerUIActionMap.OpenPauseMenu.Disable();
+        playerActionMap.Look.Disable();
+        playerActionMap.OpenPauseMenu.Disable();
 
     }
 
@@ -88,15 +87,10 @@ public class InputManager : MonoBehaviour
     }
 
     void ActivateMenu()
-    {
-      
-
-
-        pauseUIInstance = Instantiate(pauseUI,UIPosition.position,UIPosition.rotation);
-     
+    {     
+        pauseUIInstance = Instantiate(pauseUI,UIPosition.position,UIPosition.rotation);  
         Time.timeScale = 0;
         AudioListener.pause = true;
-   
 
     }
 

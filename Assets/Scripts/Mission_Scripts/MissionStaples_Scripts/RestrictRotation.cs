@@ -13,8 +13,8 @@ public class RestrictRotation : MonoBehaviour
     private Vector3 startingPosition;
 
     // Margen permitido para rotación y posición
-    private const float allowedRotationOffset = 2f;
-    private const float allowedPositionOffset = 0.3f;
+    private const float allowedRotationOffset = 0.3f;
+    private const float allowedPositionOffset = 0.03f;
 
     private void Start()
     {

@@ -11,9 +11,6 @@ public class Stats : MonoBehaviour
     [SerializeField]List<string> interactionNames = new List<string>();
     [SerializeField] TextMeshProUGUI contactoVisualText;
 
-    //QUITAR CUANDO MODIFIQUE TODO
-    public List<Image> chatGPTStatList;
-
     public Dictionary<string, Image> missionStatsDictionary; // Diccionario que vincula el nombre de las misiones con sus imágenes en la UI.
 
     [Header("Configuración de Imágenes")]

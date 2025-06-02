@@ -13,15 +13,11 @@ public class ManagerOpenAI : MonoBehaviour
     [SerializeField] OpenAIFather mission;
 
     [SerializeField] string firstMessage;
-    [SerializeField] string promt;
-    [SerializeField] string rol;
+   
+
     [SerializeField] public TextMeshProUGUI rolText;
     [SerializeField] public TextMeshProUGUI messageText;
 
-
-    [SerializeField] Button buttonAcabarConvo;
-    [SerializeField] GameObject panelSiNoAcabarConvo;
-    [SerializeField] GameObject canvasAcabarConvo;
 
 
     [SerializeField] Button buttonSi;
@@ -37,11 +33,6 @@ public class ManagerOpenAI : MonoBehaviour
 
    [SerializeField] Crono cronoTotalResponseTime;
 
-    private void Awake()
-    {
-        buttonAcabarConvo.onClick.AddListener(ButtonAcabarConvo);
-   
-    }
 
     private void Start()
     {
@@ -53,14 +44,12 @@ public class ManagerOpenAI : MonoBehaviour
     public void SetUserResponse(string userMessage)
     {          
             mission.SetUserMessage(userMessage);
+            mission.SetAnimationsVariables(true);
 
-        
 
             totalResponsesCount++;  // Incrementar el número de respuestas
 
             talker.message.text = "  ";
-
-            mission.SetAnimationsVariables(true);
 
             talker.AskChatGPT(userMessage);
 
@@ -72,13 +61,9 @@ public class ManagerOpenAI : MonoBehaviour
     {
 
 
-        // questionStartTime = Time.time;  // Registrar el tiempo al iniciar la pregunta
-
-        //Debug.Log("Tiempo de respuesta de OpenAI: " + questionStartTime + " segundos");
-
         cronoTotalResponseTime.StartStopwatch();
        
-       mission.StopEyeTrackerTime();
+        mission.StopEyeTrackerTime();
         
            
         mission.SetChatGPTMessage(npcMessage);
@@ -89,24 +74,12 @@ public class ManagerOpenAI : MonoBehaviour
 
     void SetRecording()
     {
-       
-        mission.StartEyeTrackerTime();
-        
-            
-        
-            
+
+        mission.StartEyeTrackerTime();            
 
         mission.SetAnimationsVariables(false);
         talker.gameObject.SetActive(false);
     }
-
-    void ButtonAcabarConvo()
-    {
-        panelSiNoAcabarConvo.SetActive(true);     
-        EventSystem.current.SetSelectedGameObject(buttonNo.gameObject);
-
-    }
-
 
 
     public void ReestartManagerOpenAI()
@@ -120,9 +93,7 @@ public class ManagerOpenAI : MonoBehaviour
 
         cronoTotalResponseTime.StartStopwatch();
 
-        talker.firstMessage = firstMessage;
-        talker.prompt = promt;
-        talker.rol = rol;
+     
 
         talker.StartTalker();
         listener.StopRecording();

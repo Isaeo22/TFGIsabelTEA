@@ -60,7 +60,7 @@ public class ClaseEjercicio : MonoBehaviour
         this.gameObject.SetActive(true);
         Debug.Log("CLASE EJERCICIO ACTIVADA");
         PresentarEjercicio();
-        StartCountdown();
+        
     }
 
     public void Restart()
@@ -173,7 +173,6 @@ public class ClaseEjercicio : MonoBehaviour
 
         openAIController.gameObject.SetActive(true);
 
-
     }
 
     void RespondeNpc()
@@ -263,7 +262,6 @@ public class ClaseEjercicio : MonoBehaviour
     {
         StartCountdown();
         profesor.PlaySinglePaso(new PasoClase(levantadLaMano, preguntas[numEjercicio])); 
-
         textSeleccionGO.SetActive(true);
         textoSeleccion.text = "Levanta la mano para contestar";
         levantarManoResponder.gameObject.SetActive(true);
@@ -277,8 +275,7 @@ public class ClaseEjercicio : MonoBehaviour
         var rN = respuestasNumero[numEjercicio];
       
           if(s.IndexOf(rL, System.StringComparison.OrdinalIgnoreCase) != -1 || s.IndexOf(rN, System.StringComparison.OrdinalIgnoreCase) != -1)
-          {
-           
+          {      
             RespuestaCorrectaProfesor();
           }
           else

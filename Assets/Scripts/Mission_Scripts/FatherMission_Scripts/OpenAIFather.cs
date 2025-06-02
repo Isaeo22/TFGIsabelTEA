@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,7 @@ public abstract class OpenAIFather : MissionFather
 {
 
     protected List<KeyInteraction> keyUserInteractions;//Interacciones del ususario
-    protected List<KeyInteraction> keyOpenAiInteractions; //Interacciones con OpenAI
+    protected List<KeyInteraction> keyOpenAiInteractions; //Interacciones OpenAI
 
     [Header("OpenAI GameObject")]
     [SerializeField] protected GameObject openAI; //El gameObject del OpenAI
@@ -22,6 +23,18 @@ public abstract class OpenAIFather : MissionFather
     private string userMessage;
     private string chatGPTMessage;
     Color colorStats;
+    [SerializeField] protected Stats stats;
+
+    //Variables JSON   
+    int numTotalWords = 0;
+    int numMessages = 0;
+    int numTimesClickedInfo = 0;
+    [SerializeField] protected Crono cronometer;
+
+    //Eyetracking
+    [SerializeField] protected EyetrackerObject eyetrackerObject;
+
+    [SerializeField] protected JsonManager json;
     public override void StartMission()
     {
         //Inicializamos las interacciones que queramos
@@ -87,7 +100,8 @@ public abstract class OpenAIFather : MissionFather
     }
 
     protected override void ButtonInfo()
-    {  
+    {
+        numTimesClickedInfo++;
         openAI.SetActive(false);
         base.ButtonInfo();
     }
@@ -95,6 +109,7 @@ public abstract class OpenAIFather : MissionFather
     protected override void ButtonListo()
     {
         openAI.SetActive(true);
+        cronometer.StartStopwatch();
         base.ButtonListo();
     }
 
@@ -142,4 +157,66 @@ public abstract class OpenAIFather : MissionFather
             }
         }
     }
+
+    //METODOS JSON
+    public void AddNumWordsMessage(string m)
+    {
+        string[] palabras = m.Split(new char[] { ' ', '\t', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+        int cantidadPalabras = palabras.Length;
+
+        numTotalWords += cantidadPalabras;
+    }
+
+    public float GetAverageNumberWordsPerMessage()
+    {
+        return (int)(numTotalWords / numMessages);
+    }
+
+    protected void ReestartJson()
+    {
+        numTotalWords = 0;
+        numMessages = 0;
+        numTimesClickedInfo = 0;
+    }
+
+    public void AddNumMessages()
+    {
+        numMessages++;
+    }
+
+    public int GetNumMessages()
+    {
+        return numMessages;
+    }
+
+    public int GetNumClickInfo()
+    {
+        return numTimesClickedInfo;
+    }
+
+    public void StartEyeTrackerTime()
+    {
+        eyetrackerObject.PlayCrono();
+    }
+
+    public void StopEyeTrackerTime()
+    {
+        eyetrackerObject.PauseCrono();
+    }
+
+    public float GetTotalTime()
+    {
+        return cronometer.GetElapsedTime();
+    }
+
+    public float GetTotalEyetrackingTime()
+    {
+        return eyetrackerObject.GetTotalEyetrackingTime();
+    }
+
+    public void ReestartEyetracker()
+    {
+        eyetrackerObject.Reestart();
+    }
+    //METODOS JSON
 }

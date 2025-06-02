@@ -28,6 +28,14 @@ public class SeleccionPregunta : Seleccion
         buttonSentarse.gameObject.SetActive(true);
         preguntoSiOcupado = false;
         keywordRecognizer.SetActive(false);
+
+        if (actualSilla != null)
+        {
+            actualSilla.row1Item.SetActive(true);
+            actualSilla.row2Item.SetActive(false);
+        }
+      
+
         base.Restart();
     }
     private void OnEnable()
@@ -44,7 +52,7 @@ public class SeleccionPregunta : Seleccion
         Debug.Log("Empieza seleccion pregunta");
         textoSeleccionGO.SetActive(true);
         actualSilla = s;
-        textoSeleccion.text = "El sitio está ocupada por " + actualSilla.item;
+        textoSeleccion.text = "El sitio está ocupado por " + actualSilla.item;
         this.gameObject.SetActive(true);
         //actualUI = seleccionPreguntar;
     }

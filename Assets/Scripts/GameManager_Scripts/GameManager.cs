@@ -63,7 +63,19 @@ public class GameManager : MonoBehaviour
 
         missions[currentMission].SetActive(true);
 
-        jsonManager.SetMission(missionScriptsList[currentMission]);
+        if (currentMission!=1)
+        {
+            OpenAIFather mision = missionScriptsList[currentMission] as OpenAIFather;
+            if (mision != null)
+            {
+                jsonManager.SetMission(mision);
+            }
+            else
+            {
+                Debug.LogWarning("La misión actual no es del tipo esperado");
+            }
+        }
+      
 
         missionScriptsList[currentMission].StartMission();   
 

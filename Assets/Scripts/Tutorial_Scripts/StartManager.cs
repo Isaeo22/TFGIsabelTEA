@@ -22,10 +22,5 @@ public class StartManager : MonoBehaviour
         this.gameObject.SetActive(false);
         playerInfo.StartPlayerInfo();
     }
-    void ButtonOpciones()
-    {
-        Debug.Log("Mostrar Opciones");
-    }
-
     
 }

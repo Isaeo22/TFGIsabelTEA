@@ -24,45 +24,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     ""name"": ""PlayerInput"",
     ""maps"": [
         {
-            ""name"": ""OnFoot"",
-            ""id"": ""bd8ad767-08fb-4213-80c7-d18a0e8dd503"",
-            ""actions"": [
-                {
-                    ""name"": ""Look"",
-                    ""type"": ""Value"",
-                    ""id"": ""6052e7ea-9f27-4e54-920c-6cd91ccd3a5e"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""8f3daafe-2277-4d0e-81d0-b9ae8a21bd50"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""2ce29229-c532-4db7-8cc9-e865d82b1512"",
-                    ""path"": ""<Gamepad>/rightStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
             ""name"": ""UI"",
             ""id"": ""af33fcd7-3e71-4f8f-96a3-21bec39a0036"",
             ""actions"": [
@@ -601,13 +562,22 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             ]
         },
         {
-            ""name"": ""PlayerUI"",
-            ""id"": ""e5ba6af7-72b8-4852-9ab5-2d364b5df70c"",
+            ""name"": ""PlayerActionMap"",
+            ""id"": ""b67fab77-e5a6-43bb-a14a-83a72242331b"",
             ""actions"": [
+                {
+                    ""name"": ""Look"",
+                    ""type"": ""Value"",
+                    ""id"": ""b5b4339b-59b5-404d-936a-caa49431cea7"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
                 {
                     ""name"": ""OpenPauseMenu"",
                     ""type"": ""Button"",
-                    ""id"": ""703582ae-b0e2-47bf-928d-ee2fcfc3ae82"",
+                    ""id"": ""ed61ab60-b0a2-4906-987a-54bbfdb2f89c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -617,7 +587,29 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""e2ef363c-342f-4b30-b18b-f180ca8189b7"",
+                    ""id"": ""fd04181e-ec99-4f60-abc8-933789cd0f47"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e56d8b6d-b648-4c66-8ed1-d75cb3bde4a0"",
+                    ""path"": ""<Gamepad>/rightStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f6b46ea3-9dab-420d-83bb-dc96856fb96f"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -628,7 +620,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""58713b22-bc6c-454f-ad45-e1336076173a"",
+                    ""id"": ""1a1a8abe-b05a-4abc-ba21-1ceadd7e42fd"",
                     ""path"": ""<Gamepad>/start"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -639,7 +631,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a8293b33-9d31-4bd9-9c01-fe2d406ec41c"",
+                    ""id"": ""ac1f6298-6b64-4f53-961b-638faa2c7ae3"",
                     ""path"": ""<OculusTouchController>{LeftHand}/start"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -650,7 +642,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""e93cb19e-f0c9-480d-ba01-f4a5ca66ef48"",
+                    ""id"": ""efa32fe8-b3a3-49e9-9407-67bd38336af2"",
                     ""path"": ""<OculusTouchController>{RightHand}/start"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -661,7 +653,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""3730cd5c-f026-4d83-bd56-bac8b989f5cf"",
+                    ""id"": ""ddf3f5da-19ba-4b35-9828-036e62d1e40a"",
                     ""path"": ""<Keyboard>/p"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -672,7 +664,7 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""2a0fc2f7-f2b4-48f4-a437-b13c3108b74e"",
+                    ""id"": ""6d25f043-0baf-4161-89db-64efb3c6aca7"",
                     ""path"": ""<XRController>{RightHand}/menuButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -720,9 +712,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         }
     ]
 }");
-        // OnFoot
-        m_OnFoot = asset.FindActionMap("OnFoot", throwIfNotFound: true);
-        m_OnFoot_Look = m_OnFoot.FindAction("Look", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -735,9 +724,10 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         m_UI_RightClick = m_UI.FindAction("RightClick", throwIfNotFound: true);
         m_UI_TrackedDevicePosition = m_UI.FindAction("TrackedDevicePosition", throwIfNotFound: true);
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
-        // PlayerUI
-        m_PlayerUI = asset.FindActionMap("PlayerUI", throwIfNotFound: true);
-        m_PlayerUI_OpenPauseMenu = m_PlayerUI.FindAction("OpenPauseMenu", throwIfNotFound: true);
+        // PlayerActionMap
+        m_PlayerActionMap = asset.FindActionMap("PlayerActionMap", throwIfNotFound: true);
+        m_PlayerActionMap_Look = m_PlayerActionMap.FindAction("Look", throwIfNotFound: true);
+        m_PlayerActionMap_OpenPauseMenu = m_PlayerActionMap.FindAction("OpenPauseMenu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -795,52 +785,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     {
         return asset.FindBinding(bindingMask, out action);
     }
-
-    // OnFoot
-    private readonly InputActionMap m_OnFoot;
-    private List<IOnFootActions> m_OnFootActionsCallbackInterfaces = new List<IOnFootActions>();
-    private readonly InputAction m_OnFoot_Look;
-    public struct OnFootActions
-    {
-        private @PlayerInput m_Wrapper;
-        public OnFootActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Look => m_Wrapper.m_OnFoot_Look;
-        public InputActionMap Get() { return m_Wrapper.m_OnFoot; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(OnFootActions set) { return set.Get(); }
-        public void AddCallbacks(IOnFootActions instance)
-        {
-            if (instance == null || m_Wrapper.m_OnFootActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_OnFootActionsCallbackInterfaces.Add(instance);
-            @Look.started += instance.OnLook;
-            @Look.performed += instance.OnLook;
-            @Look.canceled += instance.OnLook;
-        }
-
-        private void UnregisterCallbacks(IOnFootActions instance)
-        {
-            @Look.started -= instance.OnLook;
-            @Look.performed -= instance.OnLook;
-            @Look.canceled -= instance.OnLook;
-        }
-
-        public void RemoveCallbacks(IOnFootActions instance)
-        {
-            if (m_Wrapper.m_OnFootActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        public void SetCallbacks(IOnFootActions instance)
-        {
-            foreach (var item in m_Wrapper.m_OnFootActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_OnFootActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    public OnFootActions @OnFoot => new OnFootActions(this);
 
     // UI
     private readonly InputActionMap m_UI;
@@ -960,51 +904,59 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     }
     public UIActions @UI => new UIActions(this);
 
-    // PlayerUI
-    private readonly InputActionMap m_PlayerUI;
-    private List<IPlayerUIActions> m_PlayerUIActionsCallbackInterfaces = new List<IPlayerUIActions>();
-    private readonly InputAction m_PlayerUI_OpenPauseMenu;
-    public struct PlayerUIActions
+    // PlayerActionMap
+    private readonly InputActionMap m_PlayerActionMap;
+    private List<IPlayerActionMapActions> m_PlayerActionMapActionsCallbackInterfaces = new List<IPlayerActionMapActions>();
+    private readonly InputAction m_PlayerActionMap_Look;
+    private readonly InputAction m_PlayerActionMap_OpenPauseMenu;
+    public struct PlayerActionMapActions
     {
         private @PlayerInput m_Wrapper;
-        public PlayerUIActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @OpenPauseMenu => m_Wrapper.m_PlayerUI_OpenPauseMenu;
-        public InputActionMap Get() { return m_Wrapper.m_PlayerUI; }
+        public PlayerActionMapActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Look => m_Wrapper.m_PlayerActionMap_Look;
+        public InputAction @OpenPauseMenu => m_Wrapper.m_PlayerActionMap_OpenPauseMenu;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerActionMap; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PlayerUIActions set) { return set.Get(); }
-        public void AddCallbacks(IPlayerUIActions instance)
+        public static implicit operator InputActionMap(PlayerActionMapActions set) { return set.Get(); }
+        public void AddCallbacks(IPlayerActionMapActions instance)
         {
-            if (instance == null || m_Wrapper.m_PlayerUIActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_PlayerUIActionsCallbackInterfaces.Add(instance);
+            if (instance == null || m_Wrapper.m_PlayerActionMapActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_PlayerActionMapActionsCallbackInterfaces.Add(instance);
+            @Look.started += instance.OnLook;
+            @Look.performed += instance.OnLook;
+            @Look.canceled += instance.OnLook;
             @OpenPauseMenu.started += instance.OnOpenPauseMenu;
             @OpenPauseMenu.performed += instance.OnOpenPauseMenu;
             @OpenPauseMenu.canceled += instance.OnOpenPauseMenu;
         }
 
-        private void UnregisterCallbacks(IPlayerUIActions instance)
+        private void UnregisterCallbacks(IPlayerActionMapActions instance)
         {
+            @Look.started -= instance.OnLook;
+            @Look.performed -= instance.OnLook;
+            @Look.canceled -= instance.OnLook;
             @OpenPauseMenu.started -= instance.OnOpenPauseMenu;
             @OpenPauseMenu.performed -= instance.OnOpenPauseMenu;
             @OpenPauseMenu.canceled -= instance.OnOpenPauseMenu;
         }
 
-        public void RemoveCallbacks(IPlayerUIActions instance)
+        public void RemoveCallbacks(IPlayerActionMapActions instance)
         {
-            if (m_Wrapper.m_PlayerUIActionsCallbackInterfaces.Remove(instance))
+            if (m_Wrapper.m_PlayerActionMapActionsCallbackInterfaces.Remove(instance))
                 UnregisterCallbacks(instance);
         }
 
-        public void SetCallbacks(IPlayerUIActions instance)
+        public void SetCallbacks(IPlayerActionMapActions instance)
         {
-            foreach (var item in m_Wrapper.m_PlayerUIActionsCallbackInterfaces)
+            foreach (var item in m_Wrapper.m_PlayerActionMapActionsCallbackInterfaces)
                 UnregisterCallbacks(item);
-            m_Wrapper.m_PlayerUIActionsCallbackInterfaces.Clear();
+            m_Wrapper.m_PlayerActionMapActionsCallbackInterfaces.Clear();
             AddCallbacks(instance);
         }
     }
-    public PlayerUIActions @PlayerUI => new PlayerUIActions(this);
+    public PlayerActionMapActions @PlayerActionMap => new PlayerActionMapActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -1032,10 +984,6 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             return asset.controlSchemes[m_VRControllerSchemeIndex];
         }
     }
-    public interface IOnFootActions
-    {
-        void OnLook(InputAction.CallbackContext context);
-    }
     public interface IUIActions
     {
         void OnNavigate(InputAction.CallbackContext context);
@@ -1049,8 +997,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         void OnTrackedDevicePosition(InputAction.CallbackContext context);
         void OnTrackedDeviceOrientation(InputAction.CallbackContext context);
     }
-    public interface IPlayerUIActions
+    public interface IPlayerActionMapActions
     {
+        void OnLook(InputAction.CallbackContext context);
         void OnOpenPauseMenu(InputAction.CallbackContext context);
     }
 }

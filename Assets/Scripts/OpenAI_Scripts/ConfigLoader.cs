@@ -26,7 +26,7 @@ public class ConfigLoader : MonoBehaviour
 
     private void LoadConfig()
     {
-        string path = "D:/Uni/TFG Cueva/StreamingAssets/config.json";//Aquí poner la ruta del json con key y org
+        string path = Path.Combine(Application.dataPath, "Config/config.json");//Aquí poner la ruta del json con key y org
 
         if (File.Exists(path))
         {

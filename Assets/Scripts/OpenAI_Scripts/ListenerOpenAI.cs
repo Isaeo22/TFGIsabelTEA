@@ -41,9 +41,7 @@ public class ListenerOpenAI : MonoBehaviour
     private OpenAIApi openai;
 
     public int messageRepetition;
-    int micIndex;
-    string micName;
- 
+
 
     List<string> hallucinations = new List<string>()
     {
@@ -75,8 +73,7 @@ public class ListenerOpenAI : MonoBehaviour
         buttonAceptar.onClick.AddListener(RestartListener);
         openai = new OpenAIApi(ConfigLoader.Instance.ApiKey, ConfigLoader.Instance.OrganizationId);
 
-        messageRepetition = 0;
-        
+        messageRepetition = 0;     
     }
 
     private void StartListener()
@@ -94,11 +91,8 @@ public class ListenerOpenAI : MonoBehaviour
         isRecording = true;
 
         var micName = PlayerPrefs.GetString("userMic");  // Valor por defecto si no se encuentra el nombre
-
-
-        #if !UNITY_WEBGL
         clip = Microphone.Start(micName, false, duration, 44100);
-        #endif
+      
     }
 
     private async void EndRecording()
@@ -106,17 +100,14 @@ public class ListenerOpenAI : MonoBehaviour
         textBox.SetActive(true);
         sliderHablaAhora.SetActive(false);
         message.text = "Escuchando...";
-       
-        #if !UNITY_WEBGL
+     
         Microphone.End(null);
-        #endif
-
+       
         byte[] data = SaveWav.Save(fileName, clip);
 
         var req = new CreateAudioTranscriptionsRequest
         {
             FileData = new FileData() { Data = data, Name = "audio.wav" },
-            // File = Application.persistentDataPath + "/" + fileName,
             Model = "whisper-1",
             Language = "es"
         };
@@ -129,11 +120,7 @@ public class ListenerOpenAI : MonoBehaviour
 
         SetMessage(message.text);
         buttonsAceptarRehacer.SetActive(true);
-
-        buttonsAceptarRehacer.gameObject.SetActive(true);
         EventSystem.current.SetSelectedGameObject(buttonAceptar.gameObject);
-
-
     }
 
     void FilterMessage(string m)
@@ -149,14 +136,11 @@ public class ListenerOpenAI : MonoBehaviour
             {
                 message.text = m;
             }
-
-
         }
     }
 
     void SetMessage(string m)
-    {
-       
+    {   
         userMessage = m;
     }
 
@@ -168,7 +152,8 @@ public class ListenerOpenAI : MonoBehaviour
 
         OnUserResponse?.Invoke(userMessage);
         isWaitingResponse = true;
-        
+
+        textBox.SetActive(false);
     }
 
     private void Update()
@@ -187,14 +172,10 @@ public class ListenerOpenAI : MonoBehaviour
         }
     }
 
-
     private void CountMessageRepetition()
     {
         messageRepetition++;
     }
-
-
-  
 
     // Detener la grabación si el jugador sale de la misión
     public void StopRecording()

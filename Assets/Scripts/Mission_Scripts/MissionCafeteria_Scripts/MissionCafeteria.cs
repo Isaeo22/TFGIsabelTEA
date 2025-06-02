@@ -65,10 +65,12 @@ public class MissionCafeteria : OpenAIFather
             new KeyInteraction("Corregir precio", new List<string> { "euro", "€", "precio" },
                   "Comprueba el precio de lo que has pedido antes de pagar: \n *Perdona, en el menú no pone ese precio"),
 
-            new KeyInteraction("Corregir orden", new List<string> { "bocadillo", "hamburguesa", "pizza", "bebida", "batido", "café", "donut", "patatas", "helado" }, null),
+            new KeyInteraction("Corregir orden", new List<string> { "bocadillo", "hamburguesa", "pizza", 
+                "bebida", "batido", "café", "donut", "patatas", "helado" }, null),
             
         };
     }
+
 
     //Override methods BEGINING
  
@@ -156,14 +158,16 @@ public class MissionCafeteria : OpenAIFather
 
         ChangeInstructions(interaction.Instruction);
 
+        bool OnPay=false;
         if (ContainsKeyword(chatGPTMessage, "el total es"))//Ponemos una "contraseña" en el promt para saber que ocurre
         {
+            OnPay = true;
             buttonPagar.gameObject.SetActive(true);
         }
 
         if (MessageContainsApology(chatGPTMessage))
         {
-            MarkInteractionAsCompleted(interaction, chatGPTMessage);
+            MarkInteractionAsCompleted(interaction, chatGPTMessage, OnPay);
         }
         else
         {
@@ -182,11 +186,11 @@ public class MissionCafeteria : OpenAIFather
         return apologyKeywords.Any(apology => ContainsKeyword(message, apology));
     }
 
-    private void MarkInteractionAsCompleted(KeyInteraction interaction, string chatGPTMessage)
+    private void MarkInteractionAsCompleted(KeyInteraction interaction, string chatGPTMessage,bool OnPay)
     {
         stats.UpdateStatImage(interaction.InteractionName);
 
-        if (ContainsKeyword(chatGPTMessage, "el total es"))
+        if (OnPay)
         {
             textInstrucciones.text = "Pulsa el botón 'PAGAR' para acabar la misión";
             openAI.GetComponent<ManagerOpenAI>().listener.buttonResponder.gameObject.SetActive(false);

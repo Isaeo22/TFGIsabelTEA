@@ -20,9 +20,7 @@ public class ProfesorManager : MonoBehaviour
 
     }
 
-  
-
-    public void PlaySinglePaso(PasoClase paso, Action onComplete = null)
+    public void PlaySinglePaso(PasoClase paso)
     {
         if (stopRequested) return; // Si se solicitó detener, no reproducir nada
         PlayAudio(paso.audio);
@@ -51,12 +49,9 @@ public class ProfesorManager : MonoBehaviour
             if (stopRequested) yield break; // Si se solicitó detener, no reproducir nada
             if (p.audio != null)
             {
-                PlayAudio(p.audio);
-                
-
+                PlayAudio(p.audio);              
                 // Actualizar el texto asociado al audio
                 ActualizarPizarra(p.texto);
-
                 // Espera a que el clip termine de reproducirse
                 yield return new WaitForSeconds(p.audio.length);
             }
@@ -80,7 +75,7 @@ public class ProfesorManager : MonoBehaviour
     {
         stopRequested = true;
         audioSource.Stop();
-      StopAllCoroutines(); // Detiene cualquier corrutina en ejecución
+        StopAllCoroutines(); // Detiene cualquier corrutina en ejecución
         
     }
 

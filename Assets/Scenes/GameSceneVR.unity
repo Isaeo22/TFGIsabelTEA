@@ -123,72 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &10799277 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 664482612815583656, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &11572343
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1061617293936338237, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1524141347485978437, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_Name
-      value: School 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7421976585741903379, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dd30a0c0f23ee6b48baa15f827f6c633, type: 3}
 --- !u!1 &24715136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7290064312463453156, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
@@ -210,11 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &57699730 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6194309988726030808, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &79601786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4375666874447896295, guid: 1cd4fa87d986d3a47bc79b86b79d9b0a, type: 3}
@@ -309,20 +238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &285139930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1913435021236990559, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &291495678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8269227922345974826, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
   m_PrefabInstance: {fileID: 992943274}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &299321352 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5931662838043670625, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &308529505
 GameObject:
@@ -463,6 +382,11 @@ MonoBehaviour:
   playerCamera: {fileID: 1326786782}
   distanceFromPlayer: 0.7
   heightOffset: 0
+--- !u!1 &417512733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7179563156831956158, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &420218131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7825624960240756560, guid: 1cd4fa87d986d3a47bc79b86b79d9b0a, type: 3}
@@ -537,7 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45926a443d97924a80be3ae5795194a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionColor: {r: 0, g: 0.74509805, b: 1, a: 1}
 --- !u!114 &445063310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -613,6 +536,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445063306}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &454009410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4092406606355762954, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &478305075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8106181689045653420, guid: eea7151cfc6c1564499ecabb4898d34a, type: 3}
@@ -1142,6 +1070,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &639014371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3869002588648412092, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_Name
+      value: School
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158745006571141866, guid: 8661802330a642543b4d51e3246d7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8661802330a642543b4d51e3246d7291, type: 3}
 --- !u!1 &644985597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6961069931234855565, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
@@ -1261,17 +1246,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 555791209669700355, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
   m_PrefabInstance: {fileID: 2005253759}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &706930314 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 555791209669700364, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
-  m_PrefabInstance: {fileID: 2005253759}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 156077f44b672b74db734b220700c8b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &711311936 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
@@ -1283,16 +1257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f81a056e9a6ce3c42a2ba870c102c505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &716517191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 664482611766565845, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &730914841 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 664482612323676048, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &765148832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 490363081420649277, guid: 1cd4fa87d986d3a47bc79b86b79d9b0a, type: 3}
@@ -1382,10 +1346,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6299756788601268982, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
   m_PrefabInstance: {fileID: 992943274}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &911345808 stripped
+--- !u!1 &928572022 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1974443990348189369, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
+  m_CorrespondingSourceObject: {fileID: 3068414879163669094, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &937909132
 GameObject:
@@ -1566,6 +1530,10 @@ PrefabInstance:
       value: 0.010002136
       objectReference: {fileID: 0}
     - target: {fileID: 1428735085300425226, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: Hola!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428735085300425226, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: cronoTotalResponseTime
       value: 
       objectReference: {fileID: 2083661294}
@@ -1585,6 +1553,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 1428735086887330175, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428735086887330175, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como una alumna de universidad. Te llamas Emma. Vas vestida
+        con una camisa blanca, pantalones de traje negros, unas gafas de ver redondas
+        y tienes una c\xE1mara de fotos colgada del cuello. Estudias un doble grado
+        en periodismo y comunicaci\xF3n audiovisual. Te gusta la m\xFAsica latina
+        y espa\xF1ola.  Vas a clases de atletismo y sales a correr. Tu pasa tiempo
+        es viajar por el mundo y fotografiar animales salvajes. Te gustan los documentales
+        de animales y el cine de autor. Tienes un periquito que sabe hablar. Hoy
+        vas a hacer una sesi\xF3n de fotos para un proyecto de la carrera. Habla
+        de forma amigable y amable.Mant\xE9n una personalidad realista, natural,
+        no caricaturesca. No uses ning\xFAn emoticono diferente a los siguientes:
+        \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto de emoticonos no lo uses nunca. Tus respuestas no pueden ocupar
+        mas de 118 caracteres. Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
     - target: {fileID: 1605953235785248964, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: m_LocalPosition.z
       value: 286
@@ -1845,6 +1833,27 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 4392639397002310286, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 4392639397002310286, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas Marcos. Vas vestido
+        con una camiseta roja, una gorra roja, unos pantalones blancos cortos, unas
+        gafas, unas rodilleras y una mochila negras. Estudias ingenier\xEDa inform\xE1tica.
+        Te gusta la m\xFAsica hip hop y tecno. Te gusta mucho hacer skate y el parkour.
+        Tu pasatiempo es jugar videojuegos. Te gustan las pel\xEDculas de acci\xF3n
+        y aventuras. Tienes dos tortugas de mascota. Hablas de manera ir\xF3nica
+        y con sarcasmo. Mant\xE9n una personalidad realista, natural, no caricaturesca.
+        No uses ning\xFAn emoticono diferente a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca.  Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4392639397002310286, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, \xBFqu\xE9 tal?"
+      objectReference: {fileID: 0}
     - target: {fileID: 4392639397556859387, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: cronoTotalResponseTime
       value: 
@@ -2053,10 +2062,37 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 8249006341261905129, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8249006341261905129, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas Nico. Vas vestido
+        con una camisa de manga larga de color azul marino, unos pantalones cortos
+        marrones, y unas gafas de sol redondas rojas. Estudias un doble grado en
+        filosof\xEDa y psicolog\xEDa. Tu g\xE9nero de m\xFAsica favorito es el rock.
+        Te gusta jugar al p\xE1del y hacer boxeo. Tu pasatiempo favorito es leer
+        novelas, sobre todo de misterio. Tus pel\xEDculas favoritas son las de sagas
+        largas como Harry Potter o El se\xF1or de los anillos Tienes un estanque
+        con peces en tu jard\xEDn. Hablas de manera extrovertida.Mant\xE9n una personalidad
+        realista, natural, no caricaturesca. No uses ning\xFAn emoticono diferente
+        a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8249006341261905129, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: Hey!
+      objectReference: {fileID: 0}
     - target: {fileID: 8269227922127863806, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 8269227922345974820, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, \xBFC\xF3mo est\xE1s?"
+      objectReference: {fileID: 0}
     - target: {fileID: 8269227922345974820, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: cronoTotalResponseTime
       value: 
@@ -2069,6 +2105,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 3c8966b30d238c949961864839598ef9, type: 3}
+    - target: {fileID: 8269227922902622033, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269227922902622033, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como una alumna de universidad. Te llamas Laura. Vas vestida
+        con un top gris, unos shorts vaqueros, una pulsera blanca y unas gafas de
+        sol redondas. Estudias medicina. Te gusta la m\xFAsica pop. Te gusta ir al
+        gimnasio y jugar al voleibol. Te gusta ir a conciertos y festivales de m\xFAsica
+        pop. Te gustan las sitcoms americanas y las pel\xEDculas de animaci\xF3n.
+        Tienes un gato naranja. No uses ning\xFAn emoticono diferente a los siguientes:
+        \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269227922902622033, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, \xBFC\xF3mo est\xE1s?"
+      objectReference: {fileID: 0}
     - target: {fileID: 8269227923365387513, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
@@ -2158,6 +2214,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
     - target: {fileID: 8567063240930355747, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: Hola
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567063240930355747, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: cronoTotalResponseTime
       value: 
       objectReference: {fileID: 2083661294}
@@ -2165,6 +2225,27 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 8567063242516703574, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567063242516703574, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como una alumna de universidad. Te llamas Minah. Tienes 20
+        a\xF1os. Vas vestida de negro con un top, unos pantalones cortos, una corbata,
+        unas mu\xF1equeras y unas botas. Estudias traducci\xF3n e interpretaci\xF3n.
+        Te gusta el kpop. Tu deporte favorito es bailar. Tu pasatiempo favorito es
+        ir de compras. Te gustan las series de anime y los dramas coreanos. Te gustan
+        los animales y tienes un perro de mascota. Hablas de forma t\xEDmida. Mant\xE9n
+        una personalidad realista, natural, no caricaturesca. No uses ning\xFAn emoticono
+        diferente a los siguientes:\U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567063242516703574, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: Hola
+      objectReference: {fileID: 0}
     - target: {fileID: 8572161816706037911, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
@@ -2225,6 +2306,30 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 3c8966b30d238c949961864839598ef9, type: 3}
+    - target: {fileID: 8765949892754824822, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765949892754824822, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas \xC1lvaro. Vas vestido
+        con uniforme de dentista, una bata blanca, una camiseta azul con un dibujo
+        de un diente, unos pantalones negros, unos guantes, una mascarilla y un espejo
+        frontal en la cabeza. Estudias odontolog\xEDa. Te gusta todo tipo de m\xFAsica
+        pero sobre todo la m\xFAsica cl\xE1sica. Tu deporte favorito es el f\xFAtbol
+        y el baloncesto. Tu pasatiempo son los juegos de mesa y los juegos de cartas
+        coleccionables. Te gustan las series de moda de Netflix y HBO. Tienes un
+        conejo de mascota que se llama melocot\xF3n. Hoy has tenido que hacer unas
+        pr\xE1cticas en el laboratorio por eso est\xE1s uniformado. Hablas como un
+        intelectual pedante. Mant\xE9n una personalidad realista, natural, no caricaturesca.
+        No uses ning\xFAn emoticono diferente a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765949892754824822, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, buenos d\xEDas"
+      objectReference: {fileID: 0}
     - target: {fileID: 8765949893235908062, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
@@ -2289,11 +2394,6 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1955963913397444622, guid: 1cd4fa87d986d3a47bc79b86b79d9b0a, type: 3}
   m_PrefabInstance: {fileID: 1132113790}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1011170349 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9143003035244035760, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1011424268 stripped
 GameObject:
@@ -2435,7 +2535,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1111149830
 MonoBehaviour:
@@ -2673,6 +2773,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1165494274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1814885408249728010}
+    m_Modifications:
+    - target: {fileID: 130010036061548914, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_Name
+      value: NPCs Clase Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3418711
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0724738
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.158488
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+--- !u!4 &1165494275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1603348209232316677, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1168399979 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5863597748275879364, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
@@ -2727,6 +2889,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1269532113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3134068052381296256, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1276202332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,79 +3016,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!1001 &1299978764
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1814885408249728010}
-    m_Modifications:
-    - target: {fileID: 679367256547590734, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: sittingPosition.y
-      value: 1.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 679367257629114421, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: sittingPosition.y
-      value: 1.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 679367258143847949, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: sittingPosition.y
-      value: 1.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.3418711
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.0724738
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.158488
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3476341556097983917, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-      propertyPath: m_Name
-      value: NPCs
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
---- !u!4 &1299978765 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2860821477547318746, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
+--- !u!1 &1287373265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5697591859044477551, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
   m_PrefabAsset: {fileID: 0}
 --- !u!223 &1302045661 stripped
 Canvas:
@@ -3088,6 +3186,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1362336122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4092406605306580343, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1399380270 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 555791210752766572, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
@@ -3145,6 +3248,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1431770756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7207181449666123015, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1438664262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,6 +3444,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee5d34d647219649ac6d433c326234c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1886913383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5054711986236735567, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1889450262
 GameObject:
   m_ObjectHideFlags: 0
@@ -4024,6 +4137,14 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
       objectReference: {fileID: 21300000, guid: 2f712440b44f2f94e99ec4b2847429f9, type: 3}
+    - target: {fileID: 908093026635152381, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
+      propertyPath: OnVr
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 908093026635152381, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
+      propertyPath: profesor
+      value: 
+      objectReference: {fileID: 1138679505}
     - target: {fileID: 1011301645050537553, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: buttonInfo
       value: 
@@ -4047,15 +4168,15 @@ PrefabInstance:
     - target: {fileID: 1011301645050537553, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcsSaludo.Array.data[0]
       value: 
-      objectReference: {fileID: 1011170349}
+      objectReference: {fileID: 1287373265}
     - target: {fileID: 1011301645050537553, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcsSaludo.Array.data[1]
       value: 
-      objectReference: {fileID: 911345808}
+      objectReference: {fileID: 928572022}
     - target: {fileID: 1011301645050537553, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcsSaludo.Array.data[2]
       value: 
-      objectReference: {fileID: 2017753854}
+      objectReference: {fileID: 1886913383}
     - target: {fileID: 1736512506251905650, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: botonNo
       value: 
@@ -4151,27 +4272,27 @@ PrefabInstance:
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: sillas.Array.data[0]
       value: 
-      objectReference: {fileID: 716517191}
+      objectReference: {fileID: 454009410}
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: sillas.Array.data[1]
       value: 
-      objectReference: {fileID: 10799277}
+      objectReference: {fileID: 1362336122}
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: sillas.Array.data[2]
       value: 
-      objectReference: {fileID: 730914841}
+      objectReference: {fileID: 2079647492}
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: flechas.Array.data[0]
       value: 
-      objectReference: {fileID: 299321352}
+      objectReference: {fileID: 417512733}
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: flechas.Array.data[1]
       value: 
-      objectReference: {fileID: 57699730}
+      objectReference: {fileID: 1431770756}
     - target: {fileID: 4084423314549455850, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: flechas.Array.data[2]
       value: 
-      objectReference: {fileID: 285139930}
+      objectReference: {fileID: 1269532113}
     - target: {fileID: 4525549982788439639, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
@@ -4491,19 +4612,19 @@ PrefabInstance:
     - target: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcs.Array.data[0]
       value: 
-      objectReference: {fileID: 2017753854}
+      objectReference: {fileID: 1886913383}
     - target: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcs.Array.data[1]
       value: 
-      objectReference: {fileID: 1011170349}
+      objectReference: {fileID: 1287373265}
     - target: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcs.Array.data[2]
       value: 
-      objectReference: {fileID: 911345808}
+      objectReference: {fileID: 928572022}
     - target: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: npcs.Array.data[3]
       value: 
-      objectReference: {fileID: 1011170349}
+      objectReference: {fileID: 1287373265}
     - target: {fileID: 8655125703235020059, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
       propertyPath: levantadLaMano.audio
       value: 
@@ -4609,6 +4730,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23161bd4b5f85e54986654b80ebfb865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2005253761 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 908093026635152381, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
+  m_PrefabInstance: {fileID: 2005253759}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9dc5b5e185dd494fb46d99e83c2b0aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2007810412 stripped
@@ -4754,11 +4886,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &2017753854 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8635195504101545104, guid: 5f8063fee5c9ee842bb69d5c921de655, type: 3}
-  m_PrefabInstance: {fileID: 1299978764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2037641945 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5311513801123782147, guid: 5acd45c5a62c25c41a2aa3a7d593d311, type: 3}
@@ -4807,6 +4934,11 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6845264032889129516, guid: 292826d2107ee0543ab373f7756642e0, type: 3}
   m_PrefabInstance: {fileID: 992943274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079647492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4092406605871643471, guid: 62f365511f1946543b2d7a8a91c43595, type: 3}
+  m_PrefabInstance: {fileID: 1165494274}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083661292
 GameObject:
@@ -8120,7 +8252,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1299978765}
+  - {fileID: 1165494275}
   - {fileID: 1138679504}
   - {fileID: 706930313}
   m_Father: {fileID: 0}
@@ -8172,7 +8304,7 @@ MonoBehaviour:
   - {fileID: 1814885407487985226}
   missionScriptsList:
   - {fileID: 4473388825149888027}
-  - {fileID: 706930314}
+  - {fileID: 2005253761}
   - {fileID: 570824488}
   - {fileID: 1240067574}
   onMission: 0
@@ -9102,7 +9234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45926a443d97924a80be3ae5795194a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionColor: {r: 0, g: 0.74509805, b: 1, a: 1}
 --- !u!23 &2821079040339870552
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9222,7 +9353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d45926a443d97924a80be3ae5795194a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionColor: {r: 0, g: 0.74509805, b: 1, a: 1}
 --- !u!114 &2821079041293366363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11537,16 +11667,16 @@ MonoBehaviour:
   buttonInfo: {fileID: 1276202336}
   buttonListo: {fileID: 8195604910550281387}
   statsGO: {fileID: 163872252}
-  stats: {fileID: 478305076}
   buttonAcabarMision: {fileID: 1159556757}
   spriteCheck: {fileID: 21300000, guid: 3494dc956dfd7174abc07060940a2848, type: 3}
   spriteUnchecked: {fileID: 21300000, guid: 669daf32b169a954fa2928b38dfe83bb, type: 3}
-  cronometer: {fileID: 1001079837}
-  eyetrackerObject: {fileID: 2821079041293366370}
-  json: {fileID: 1120702460}
   OnVr: 1
   openAI: {fileID: 24715136}
   npcPrefab: {fileID: 5167067373142513033}
+  stats: {fileID: 478305076}
+  cronometer: {fileID: 1001079837}
+  eyetrackerObject: {fileID: 2821079041293366370}
+  json: {fileID: 1120702460}
 --- !u!4 &4505392030980352477
 Transform:
   m_ObjectHideFlags: 0

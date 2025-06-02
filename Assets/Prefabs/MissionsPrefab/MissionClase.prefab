@@ -821,7 +821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 555791209669700355}
-  - component: {fileID: 555791209669700364}
+  - component: {fileID: 908093026635152381}
   m_Layer: 0
   m_Name: MissionClase
   m_TagString: Untagged
@@ -848,7 +848,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &555791209669700364
+--- !u!114 &908093026635152381
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -857,10 +857,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 555791209669700365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 156077f44b672b74db734b220700c8b7, type: 3}
+  m_Script: {fileID: 11500000, guid: c9dc5b5e185dd494fb46d99e83c2b0aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionName: MisionX
+  missionName: Mision Clase
   instructions: {fileID: 555791211370054675}
   instruccionsInGame: {fileID: 555791210619350702}
   textInstrucciones: {fileID: 555791211272644963}
@@ -868,25 +868,22 @@ MonoBehaviour:
   buttonInfo: {fileID: 555791211395231818}
   buttonListo: {fileID: 555791210165762492}
   statsGO: {fileID: 555791209391076324}
-  stats: {fileID: 0}
   buttonAcabarMision: {fileID: 555791209901813967}
-  spriteCheck: {fileID: 0}
-  spriteUnchecked: {fileID: 0}
-  cronometer: {fileID: 0}
-  eyetrackerObject: {fileID: 0}
-  json: {fileID: 0}
+  spriteCheck: {fileID: 21300000, guid: b21b9f5a8ebfc1e44bbfe046ea32875c, type: 3}
+  spriteUnchecked: {fileID: 21300000, guid: 3494dc956dfd7174abc07060940a2848, type: 3}
+  OnVr: 0
   seleccionSaludoController: {fileID: 1011301645050537553}
-  seleccionSillaController: {fileID: 0}
-  seleccionPreguntaController: {fileID: 0}
-  claseExplicacionController: {fileID: 0}
-  claseEjercicioController: {fileID: 0}
-  textoSeleccionGO: {fileID: 0}
-  titulo: {fileID: 0}
-  objetivo: {fileID: 0}
-  indicaciones: {fileID: 0}
-  pizarra: {fileID: 0}
+  seleccionSillaController: {fileID: 4084423314549455850}
+  seleccionPreguntaController: {fileID: 2677390410492411389}
+  claseExplicacionController: {fileID: 5646698779013518286}
+  claseEjercicioController: {fileID: 8655125703235020059}
+  textoSeleccionGO: {fileID: 555791209967396435}
+  titulo: {fileID: 555791210752766572}
+  objetivo: {fileID: 555791210435046082}
+  indicaciones: {fileID: 555791211268758449}
+  pizarra: {fileID: 239328918394480931}
   profesor: {fileID: 0}
-  textoStats: {fileID: 0}
+  textoStats: {fileID: 555791210960592133}
 --- !u!1 &555791209774773078
 GameObject:
   m_ObjectHideFlags: 0
@@ -7771,7 +7768,6 @@ GameObject:
   - component: {fileID: 5811455184537635724}
   - component: {fileID: 1838010581155993485}
   - component: {fileID: 4940008090338981785}
-  - component: {fileID: 8316888194732813218}
   m_Layer: 5
   m_Name: ListenerOpenAI
   m_TagString: Untagged
@@ -7864,30 +7860,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8316888194732813218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8169872403588337962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aea7250e20dce6d4d91c34ea53a88090, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonResponder: {fileID: 2772587035761857261}
-  sliderHablaAhora: {fileID: 7046058004668048569}
-  buttonsAceptarRehacer: {fileID: 1900386695266568762}
-  buttonAceptar: {fileID: 8971182745187093710}
-  buttonRehacer: {fileID: 5311513801123782147}
-  textBox: {fileID: 6961069931234855565}
-  isRecording: 0
-  timeBar: {fileID: 5863597748275879364}
-  message: {fileID: 3541558624409777113}
-  userMessage: 
-  isWaitingResponse: 0
-  messageRepetition: 0
 --- !u!1 &8781783677123228790
 GameObject:
   m_ObjectHideFlags: 0
@@ -8081,6 +8053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b56e9fa19b4c444cac87dc3442ce3a7, type: 3}
+--- !u!1 &239328918394480931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6687498698970581859, guid: 3b56e9fa19b4c444cac87dc3442ce3a7, type: 3}
+  m_PrefabInstance: {fileID: 6889523094665749056}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &7194869943144554649 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4343107038698717913, guid: 3b56e9fa19b4c444cac87dc3442ce3a7, type: 3}

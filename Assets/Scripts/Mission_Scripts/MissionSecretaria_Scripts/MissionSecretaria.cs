@@ -44,11 +44,9 @@ public class MissionSecretaria : OpenAIFather
             new KeyInteraction("Saludo", new List<string> { "hola", "buenos días" }, "Pregunta por el carné de estudiante: " +
             "\n* ¿Me puedes decir cómo conseguir el carné de estudiante porfavor?" +
             "\n * Recuerda pedir las cosas por favor y dar las gracias"),
-
             new KeyInteraction("Despedida", new List<string> { "hasta luego", "adiós" },null),
             new KeyInteraction("Por favor", new List<string> { "por favor"},null),
             new KeyInteraction("Gracias", new List<string> { "gracias"},null),
-
             new KeyInteraction("Pedir el carnet", new List<string> { "carné", "carnet" },
             "Responde las preguntas que te haga la secretaria de forma clara"),
             new KeyInteraction("Consulta Ventajas", new List<string> { "ventajas" },
@@ -64,11 +62,8 @@ public class MissionSecretaria : OpenAIFather
         {
              new KeyInteraction("Pedir el carnet", new List<string> { "carné", "carnet" }, "Pregunta por las ventajas del carné de estudiante: " +
             "\n *¿Qué ventajas tiene el carné?"),
-
             new KeyInteraction("Algo más", new List<string> { "algo más" }, "Pregunta por las ventajas del carné de estudiante: " +
             "\n *¿Qué ventajas tiene el carné?"),
-
-  
             new KeyInteraction("Consulta Ventajas", new List<string> { "ventajas" },
             "Pregunta por algo más específico:\n *¿A qué ofertas puedo acceder con el carné?\n*¿Cómo saco libros de la biblioteca?"),
 

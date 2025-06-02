@@ -3353,18 +3353,18 @@ MonoBehaviour:
   buttonInfo: {fileID: 3363983304243243227}
   buttonListo: {fileID: 6612022114093485895}
   statsGO: {fileID: 0}
-  stats: {fileID: 0}
   buttonAcabarMision: {fileID: 0}
   spriteCheck: {fileID: 21300000, guid: 3494dc956dfd7174abc07060940a2848, type: 3}
   spriteUnchecked: {fileID: 21300000, guid: 669daf32b169a954fa2928b38dfe83bb, type: 3}
-  cronometer: {fileID: 0}
-  eyetrackerObject: {fileID: 0}
-  json: {fileID: 0}
   OnVr: 0
   openAI: {fileID: 4825255043266125499}
   npcPrefab: {fileID: 5693700551889354135, guid: 1cd4fa87d986d3a47bc79b86b79d9b0a, type: 3}
-  continuar: {fileID: 8083097422633273551}
-  acabarMisionDef: {fileID: 0}
+  stats: {fileID: 0}
+  cronometer: {fileID: 0}
+  eyetrackerObject: {fileID: 0}
+  json: {fileID: 0}
+  buttonContinuar: {fileID: 0}
+  buttonAcabarMisionDef: {fileID: 0}
   seleccionPersonajeController: {fileID: 0}
 --- !u!1 &4825255043266125499
 GameObject:
@@ -5113,7 +5113,6 @@ MonoBehaviour:
   - Pasatiempo
   - Mascota
   contactoVisualText: {fileID: 8730182342388215843}
-  chatGPTStatList: []
   spriteCheck: {fileID: 21300000, guid: 3494dc956dfd7174abc07060940a2848, type: 3}
 --- !u!1 &7232380308367981626
 GameObject:
@@ -6049,7 +6048,28 @@ PrefabInstance:
       objectReference: {fileID: 1651333933171094022}
     - target: {fileID: 7290064312463453162, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
       propertyPath: firstMessage
-      value: "\xA1Hola!"
+      value: Hola
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como una alumna de universidad. Te llamas Minah. Tienes 20
+        a\xF1os. Vas vestida de negro con un top, unos pantalones cortos, una corbata,
+        unas mu\xF1equeras y unas botas. Estudias traducci\xF3n e interpretaci\xF3n.
+        Te gusta el kpop. Tu deporte favorito es bailar. Tu pasatiempo favorito es
+        ir de compras. Te gustan las series de anime y los dramas coreanos. Te gustan
+        los animales y tienes un perro de mascota. Hablas de forma t\xEDmida. Mant\xE9n
+        una personalidad realista, natural, no caricaturesca. Si quieres usar emoticonos
+        que sean de estos: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: firstMessage
+      value: Hola
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
@@ -6142,6 +6162,29 @@ PrefabInstance:
       propertyPath: firstMessage
       value: Hey!
       objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas Nico. Vas vestido
+        con una camisa de manga larga de color azul marino, unos pantalones cortos
+        marrones, y unas gafas de sol redondas rojas. Estudias un doble grado en
+        filosof\xEDa y psicolog\xEDa. Tu g\xE9nero de m\xFAsica favorito es el rock.
+        Te gusta jugar al p\xE1del y hacer boxeo. Tu pasatiempo favorito es leer
+        novelas, sobre todo de misterio. Tus pel\xEDculas favoritas son las de sagas
+        largas como Harry Potter o El se\xF1or de los anillos Tienes un estanque
+        con peces en tu jard\xEDn. Hablas de manera extrovertida.Mant\xE9n una personalidad
+        realista, natural, no caricaturesca. No uses ning\xFAn emoticono diferente
+        a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: firstMessage
+      value: Hey!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
 --- !u!4 &8249006339664777107 stripped
@@ -6229,7 +6272,27 @@ PrefabInstance:
       objectReference: {fileID: 1651333933171094022}
     - target: {fileID: 7290064312463453162, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
       propertyPath: firstMessage
-      value: Hola
+      value: "Hola, \xBFC\xF3mo est\xE1s?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: " Act\xFAa como una alumna de universidad. Te llamas Laura. Vas vestida
+        con un top gris, unos shorts vaqueros, una pulsera blanca y unas gafas de
+        sol redondas. Estudias medicina. Te gusta la m\xFAsica pop. Te gusta ir al
+        gimnasio y jugar al voleibol. Te gusta ir a conciertos y festivales de m\xFAsica
+        pop. Te gustan las sitcoms americanas y las pel\xEDculas de animaci\xF3n.
+        Tienes un gato naranja. No uses ning\xFAn emoticono diferente a los siguientes:
+        \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, \xBFC\xF3mo est\xE1s?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
@@ -6324,6 +6387,30 @@ PrefabInstance:
       propertyPath: firstMessage
       value: "Hola, buenos d\xEDas"
       objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas \xC1lvaro. Vas vestido
+        con uniforme de dentista, una bata blanca, una camiseta azul con un dibujo
+        de un diente, unos pantalones negros, unos guantes, una mascarilla y un espejo
+        frontal en la cabeza. Estudias odontolog\xEDa. Te gusta todo tipo de m\xFAsica
+        pero sobre todo la m\xFAsica cl\xE1sica. Tu deporte favorito es el f\xFAtbol
+        y el baloncesto. Tu pasatiempo son los juegos de mesa y los juegos de cartas
+        coleccionables. Te gustan las series de moda de Netflix y HBO. Tienes un
+        conejo de mascota que se llama melocot\xF3n. Hoy has tenido que hacer unas
+        pr\xE1cticas en el laboratorio por eso est\xE1s uniformado. Hablas como un
+        intelectual pedante. Mant\xE9n una personalidad realista, natural, no caricaturesca.
+        No uses ning\xFAn emoticono diferente a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca. Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, buenos d\xEDas"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
 --- !u!4 &8765949892241661196 stripped
@@ -6412,7 +6499,28 @@ PrefabInstance:
       objectReference: {fileID: 1651333933171094022}
     - target: {fileID: 7290064312463453162, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
       propertyPath: firstMessage
-      value: "Hola, \xBFqu\xE9 tal?"
+      value: "Hola, \xBFQu\xE9 tal?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como un alumno de universidad. Te llamas Marcos. Vas vestido
+        con una camiseta roja, una gorra roja, unos pantalones blancos cortos, unas
+        gafas, unas rodilleras y una mochila negras. Estudias ingenier\xEDa inform\xE1tica.
+        Te gusta la m\xFAsica hip hop y tecno. Te gusta mucho hacer skate y el parkour.
+        Tu pasatiempo es jugar videojuegos. Te gustan las pel\xEDculas de acci\xF3n
+        y aventuras. Tienes dos tortugas de mascota. Hablas de manera ir\xF3nica
+        y con sarcasmo. Mant\xE9n una personalidad realista, natural, no caricaturesca.
+        No uses ning\xFAn emoticono diferente a los siguientes: \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto no lo uses nunca.  Tus respuestas no pueden ocupar mas de 118 caracteres.
+        Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: firstMessage
+      value: "Hola, \xBFQu\xE9 tal?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
@@ -6504,7 +6612,27 @@ PrefabInstance:
       objectReference: {fileID: 1651333933171094022}
     - target: {fileID: 7290064312463453162, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
       propertyPath: firstMessage
-      value: Hola
+      value: Hola!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: rol
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290064313020360863, guid: 2e3efe5b645330442ac08589148b3810, type: 3}
+      propertyPath: prompt
+      value: "Act\xFAa como una alumna de universidad. Te llamas Emma. Vas vestida
+        con una camisa blanca, pantalones de traje negros, unas gafas de ver redondas
+        y tienes una c\xE1mara de fotos colgada del cuello. Estudias un doble grado
+        en periodismo y comunicaci\xF3n audiovisual. Te gusta la m\xFAsica latina
+        y espa\xF1ola.  Vas a clases de atletismo y sales a correr. Tu pasa tiempo
+        es viajar por el mundo y fotografiar animales salvajes. Te gustan los documentales
+        de animales y el cine de autor. Tienes un periquito que sabe hablar. Hoy
+        vas a hacer una sesi\xF3n de fotos para un proyecto de la carrera. Habla
+        de forma amigable y amable.Mant\xE9n una personalidad realista, natural,
+        no caricaturesca. No uses ning\xFAn emoticono diferente a los siguientes:
+        \U0001F600\U0001F601\U0001F602\U0001F923\U0001F603\U0001F604\U0001F605\U0001F606\U0001F609\U0001F60A\U0001F60B\U0001F60E\U0001F60D,
+        el resto de emoticonos no lo uses nunca. Tus respuestas no pueden ocupar
+        mas de 118 caracteres. Tras intercambiar 10 mensajes intenta acabar la conversaci\xF3n."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3efe5b645330442ac08589148b3810, type: 3}

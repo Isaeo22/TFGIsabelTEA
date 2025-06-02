@@ -11,7 +11,7 @@ public class JsonManager : MonoBehaviour
 {
 
     private ManagerOpenAI managerOpenAI;
-    private MissionFather missionFather;
+    private OpenAIFather missionFather;
     public void SaveToJson()
     {
         UserInfo userInfo = new UserInfo();
@@ -23,24 +23,27 @@ public class JsonManager : MonoBehaviour
         userInfo.TiempoMedioDeRespuesta= managerOpenAI.GetAverageResponseTime();
         userInfo.NumVecesQueRepiteMensaje = managerOpenAI.GetMessageRepetition();
         userInfo.NumVecesClickInfo = missionFather.GetNumClickInfo();
-
-       
-        userInfo.TiempoTotalContactoVisual = missionFather.GetTotalEyetrackingTime();
-       
+        userInfo.TiempoTotalContactoVisual = missionFather.GetTotalEyetrackingTime(); 
         userInfo.TiempoTotal = missionFather.GetTotalTime();
 
         string json = JsonUtility.ToJson(userInfo, true);
-        string fileName = userInfo.NombreUsuario +"_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".json";
 
+        string fileName = userInfo.NombreUsuario + "_" + DateTime.Now.ToString("dd-MM-yyyy") + ".json";
+
+        // RUTA para guardar en la carpeta de la build (junto al .exe o .app)
+        string folderPath = Path.Combine(Application.dataPath, "..", "UserStats");
+        string filePath = Path.Combine(folderPath, fileName);
+
+        // Crear la carpeta si no existe
+        if (!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+        }
         // Save the JSON file to the specified path
-        File.WriteAllText(Application.dataPath + "/" + fileName, json);
-
-        Debug.Log("JSON saved as: " + fileName);
-
-
+        File.WriteAllText(filePath, json);
     }
 
-    public void SetMission(MissionFather m)
+    public void SetMission(OpenAIFather m)
     {
         missionFather = m;
     }

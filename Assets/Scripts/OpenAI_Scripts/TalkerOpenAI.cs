@@ -9,13 +9,16 @@ public class TalkerOpenAI : MonoBehaviour
 {
 
     public bool hasAnswered;
-    public string rol;
+    
     [SerializeField] public TMP_Text message;
     [SerializeField] public TMP_Text rolText;
+
+    [SerializeField] string prompt;
+
+    public string rol;
     public string firstMessage;
     private OpenAIApi openai;
     public List<ChatMessage> messages = new List<ChatMessage>();
-    public string prompt;
 
     [HideInInspector]
     public string openAIMessage;
@@ -29,9 +32,10 @@ public class TalkerOpenAI : MonoBehaviour
     public void StartTalker()
     {
         message.text = firstMessage;
-        ChatMessage newMessage = new ChatMessage();
         rolText.text = rol;
-      
+        ChatMessage newMessage = new ChatMessage();
+        
+     
         if (messages.Count == 0)
         {
             newMessage.Role = "user";
@@ -59,7 +63,6 @@ public class TalkerOpenAI : MonoBehaviour
 
         CreateChatCompletionRequest request = new CreateChatCompletionRequest();
         request.Messages = messages;
-        //request.Model = "gpt-3.5-turbo";
         request.Model = "gpt-4o";
         var response = await openai.CreateChatCompletion(request);
 
@@ -71,8 +74,6 @@ public class TalkerOpenAI : MonoBehaviour
             message.text =  chatResponse.Content;          
             openAIMessage = chatResponse.Content;
             OnNpcResponse?.Invoke(openAIMessage);
-
-
         }
     }
 }
